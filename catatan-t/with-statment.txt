@@ -1,0 +1,16 @@
+============== With Statement ============== 
+
+- With statment merupakan fitur yang digunakan untuk menurunkan sebuah scope data
+- Dengan menggunakan with statment, kita bisa mengakses property dalam sebiah data tanpa harus menyebut datanya.
+
+let person = {
+	firstName : "Vincentius",
+	middleName : "Hendri",
+	lastName : "Kurniawan",
+};
+
+with (person) {
+	console.log(firstName);
+	console.log(middleName);
+	console.log(lastName);
+}

@@ -1,0 +1,40 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Error Handling
+      try {
+        let a = 1 + b;
+        console.log("Vincen");
+      } catch (error) {
+        console.info("Terjadi error : " + error.message);
+      } finally {
+        console.log(`Program Selesai`);
+      }
+
+      //Sepcific case
+      class count {
+        #counter = 0;
+
+        next() {
+          try {
+            return this.#counter;
+          } finally {
+            this.#counter++;
+          }
+        }
+      }
+
+      const sum = new count();
+      console.log(sum.next());
+      console.log(sum.next());
+      console.log(sum.next());
+      console.log(sum.next());
+      console.log(sum.next());
+    </script>
+  </body>
+</html>

@@ -1,0 +1,4 @@
+============= This ==============
+
+- Untuk mengakses value suatu variable windows
+- Jika di letakkan dalam object maka akan mengakses value dari object tersebut

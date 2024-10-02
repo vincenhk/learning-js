@@ -1,0 +1,6 @@
+=================  Closure ==============
+
+- Closure adalah kombinasi function dan bundel refrensi ke data sekitarnya.
+- Oke agak membingungkan memang, apalagi untuk yang baru pertama belajar
+- Kita sudah tahu bahwa local scope tidak bisa di akses di luar scopnya.
+- Dengan kemampuan closure, kita bisa membuat sebuah function di local scope dan refrensi ke data di sekotar local scope tersebut, keluar scope nya.

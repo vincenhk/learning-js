@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        firstName;
+        lastName;
+        count = 0;
+
+        constructor(firstName, lastName) {
+          this.firstName = firstName;
+          this.lastName = lastName;
+        }
+
+        fullName() {
+          return `${this.firstName} ${this.lastName}`;
+        }
+      }
+
+      const eko = new Person("Helena", "Twindi");
+      console.info(eko);
+    </script>
+  </body>
+</html>

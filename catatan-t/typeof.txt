@@ -1,0 +1,3 @@
+========= typeof =========
+
+untuk mengetahui apakah tipe data dari suatu variable

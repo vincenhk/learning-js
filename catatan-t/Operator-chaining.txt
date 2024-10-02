@@ -1,0 +1,7 @@
+============= Operator Chain ============= 
+
+Pengecekan variable null or undifind dalam suatu object 
+
+menggunakan sytax berikut 
+
+[Onject .. ]?.[Object .. ]?.[Variable]?

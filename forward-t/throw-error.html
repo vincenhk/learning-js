@@ -1,0 +1,32 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Method</title>
+  </head>
+  <body>
+    <script>
+      class Increment {
+        static sum(...numbers) {
+          if (numbers.length === 0) {
+            //lempar object
+            // const error = new Error("Err : Hasil penjumlahan tidak boleh 0");
+            // throw error;
+
+            //lempar constructor
+            throw new Error("Parameter Tidak Boleh Kosong");
+          }
+
+          let total = 0;
+          for (let number of numbers) {
+            total = number + total;
+          }
+          return total;
+        }
+      }
+
+      const increas = new Increment();
+      console.log(Increment.sum());
+    </script>
+  </body>
+</html>

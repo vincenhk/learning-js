@@ -1,0 +1,27 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operator Nonboolean</title>
+  </head>
+  <body>
+    <h1>Operator Non-boolean</h1>
+    <script>
+      console.log(`Operator ||`);
+
+      console.log("" || "Vincen");
+      console.log(0 || "NOL");
+      console.log(null || "NOL");
+      console.log(undefined || "NOL");
+      console.log(0 || false);
+
+      console.log(`Operator &&`);
+
+      console.log("" && "NULL"); // ""
+      console.log("NULL" && ""); //""
+      console.log(undefined && ""); //undefined
+      console.log("a" && "oi"); //poi
+    </script>
+  </body>
+</html>

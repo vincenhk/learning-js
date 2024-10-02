@@ -1,0 +1,7 @@
+========= Undifine =========
+
+- Undifined adalah sebuah kata kunci di JavaScript
+- Undifined adalah sebuah tipe data
+- Sebuah variable yang belum ditambajkan nilai, maka artinya variable tersebut undifined
+- Kadang untuk programmer JavaScript pemula undifined ini memang agak sedikit membingungkan
+- Undifined itu berbeda dengan null

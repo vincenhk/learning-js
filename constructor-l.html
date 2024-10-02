@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Constructor Function
+      function Person() {
+        this.firstName = "";
+        this.lastName = "";
+      }
+
+      const eko = new Person();
+      const budi = new Person();
+
+      eko.firstName = "Eko";
+      eko.lastName = "Mantap";
+
+      budi.firstName = "Vincentius";
+      budi.lastName = "Kurniawan";
+
+      console.table(eko);
+      console.table(budi);
+    </script>
+  </body>
+</html>

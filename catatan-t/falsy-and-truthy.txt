@@ -1,0 +1,14 @@
+============ Falsy dan Trutht ============ 
+
+Falsy atau kadang di tulis falsey adalah value yang ketika dalam konteks boolean, dia di anggap salah
+
+list data yang di anggap falsy
+- false 
+- 0, -0
+- "", '', ``
+- null
+- undifined 
+- NaN
+
+list yang di anggap truthy
+- <> falsy

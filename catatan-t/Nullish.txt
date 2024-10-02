@@ -1,0 +1,9 @@
+=========== Nullish Coalescing Operato =========== 
+
+Pengecekan nilai pada suatu object null / tidak.
+
+Sytax Penggunaan menggunakan 
+
+let paramete = "Vincen"
+//melempar nilai null or undifind 
+let data = parameter ??  "Nilai Default"

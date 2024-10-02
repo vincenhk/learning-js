@@ -1,0 +1,9 @@
+=========== Label =========== 
+
+- Label merupakan penanda uang bisa digunakan dengan kata kunci break dan continue 
+- Secara efault saat kita melakukan break atau continue, dia akan melakukan terhadap perulangan dimana kode break dan continue itu digunakan.
+- dengan menggunakan label, kita bisa melakukan break dan continue terhadap perulangan yang kita inginkan, asal pada perulangannya kita gunakan label.
+- untuk membuat label, kita bisa gunakan nama label lalu ikuti dengan :
+
+penggunaan lable berfungsi untuk melakukan break maupun continue pada loop label.
+

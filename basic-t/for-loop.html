@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>LOOPING FOR</h1>
+    <ul>
+      <script>
+        for (i = 0; i < 10; i++) {
+          document.writeln(`<li>increment ${i}</li>`);
+        }
+
+        let counter = 0;
+        for (; counter < 10; ) {
+          //post statment
+          document.writeln(`<li>SING SOMBODY PREASURE</li>`);
+          counter++;
+        }
+
+        let counterw = 0;
+        while (counterw < 10) {
+          counterw++;
+          document.writeln(`<li>while ${counterw}</li>`);
+        }
+        let counterd = 0;
+        do {
+          counterd++;
+          document.writeln(`<li>do first ${counterd}</li>`);
+        } while (counterd < 10);
+
+        let counterb = 0;
+        do {
+          counterb++;
+          if (counterb == 3) {
+            continue;
+          }
+          document.writeln(`<li>COUNTER BREAKE ${counterb}</li>`);
+          if (counterb == 10) {
+            // document.writeln(`in break`);
+            break;
+          }
+        } while (counterb);
+      </script>
+    </ul>
+  </body>
+</html>

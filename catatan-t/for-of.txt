@@ -1,0 +1,9 @@
+========= for of ========= 
+
+- Jika "for in" digunakan untuk looping index "for of" digunakan untuk looping value.
+- For of tidak bisa digunakan untuk melakukan iterasi data di object, karena object bukanlah iterable.
+
+
+for (let x of [array/string]) {
+    ..... //condition
+}

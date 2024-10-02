@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Distructuring Learning</title>
+  </head>
+  <body>
+    <h1>Distructuring</h1>
+    <script>
+      debugger;
+      const person = {
+        firstName: "Vincentius",
+        middleName: "Hendri",
+        lastName: "Kurniawan",
+        address: {
+          city: "Bantul",
+          street: "Jl. Ganjuran",
+          country: "Indonesia",
+        },
+        hobby: "Running",
+        channer: "gaming",
+      };
+
+      let {
+        firstName: namaDepan,
+        middleName: namaTengah,
+        lastName: namaAkhir,
+        address: { city, country, street },
+        ...other
+      } = person;
+
+      console.log(namaDepan);
+      console.log(namaTengah);
+      console.log(namaAkhir);
+      console.table(city);
+      console.table(country);
+      console.table(street);
+    </script>
+  </body>
+</html>

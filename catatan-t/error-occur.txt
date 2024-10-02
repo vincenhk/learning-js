@@ -1,0 +1,10 @@
+========= Error Occur ========= 
+
+
+- NaN (Not a Number) => data yang kita lakukan konversi bukan data yang valid
+- Jika data string yang kita coba lakukan konversi bukanlah data valid maka hasil dari konversi tersebut adalah NaN
+- NaN adalah number spesial yang menyebutkan bahwa ini bukan number
+- Jika NaN dioperasikan dengan data numbe lainnya maka hasilnya akan dateng NaN lagi
+- Mentolelir keslahan di belakang jadi huruf depan 
+- Operator Penjumlahan String + int = NaN
+

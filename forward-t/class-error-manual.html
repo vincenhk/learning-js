@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class ValidationError extends Error {
+        constructor(message, field) {
+          super(message);
+          this.field = field;
+        }
+      }
+
+      try {
+        let a = 1 + b;
+        console.log("Vincen");
+      } catch (error) {
+        if (error instanceof ValidationError) {
+          console.error(
+            `Terdapat error pada ${error.field} err : ${error.message}`
+          );
+        } else {
+          throw new ValidationError(
+            "Total Paramerter harus sama tipe data",
+            "Type"
+          );
+          console.error(
+            `Terdapat error pada ${error.field} err : ${error.message}`
+          );
+        }
+      }
+    </script>
+  </body>
+</html>

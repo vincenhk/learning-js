@@ -1,0 +1,19 @@
+=========== Operator non boolean =========== 
+
+Operator non bolean bukan lah operator yang menghasilkan true / false, namun menghasilkan output nilai dari truthy and falsy
+
+Etc : 
+      console.log("" || "Vincen");
+      console.log(0 || "NOL");
+      console.log(null || "NOL");
+      console.log(undefined || "NOL");
+      console.log(0 || false);
+
+jika nilai null dapat menggunkaan 
+nullish sytax object/variable ?? change result (default for cleasing)
+
+
+#Operator non boolean
+
+Akan mengambil nilai akhir jika keduanya true.
+jika tidak terpenuhi keduanya maka tidak akan mengeluarkan keduanya 

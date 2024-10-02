@@ -1,0 +1,19 @@
+
+================ Constructor Inheritence ================
+
+- Pemanggilan fungsi pada constructor lain
+
+function Employee(firstName) {
+        this.firstName = firstName;
+        this.sayHello = function (name) {
+          console.info(`Hi ${name}, nama saya ${this.firstName}`);
+        };
+      }
+
+      function Manage(firstName, lastName) {
+        this.lastName = lastName;
+        Employee.call(this, firstName);
+      }
+
+      const eko = new Manage("Vincentius", "Hendri");
+      eko.sayHello("HIYA");

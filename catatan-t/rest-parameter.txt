@@ -1,0 +1,7 @@
+================= Rest Parameter ================= 
+
+- Rest Parameter adalah fitur dimana kita bisa mengirim data sebanyak-banyaknya pada satu parameter dan secara otomatis akan di konversi menjadi array.
+- Untuk membuat rest parameter ada ketentuannya
+- Rest parameter hanya boleh ada satu di function tidak boleh lebih dari satu.
+- Rest parameter hanya boleh berada di posisi paling akhir, tidak boleh di depa atau di tengah kecuali cuman ada 1 parameter
+

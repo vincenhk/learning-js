@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FUNCTION</title>
+  </head>
+  <body>
+    <h1>RECALL FUNCTION</h1>
+    <script>
+      //Function
+      function getHellowWorld() {
+        document.writeln("FUNCTION OCCURE");
+      }
+
+      //Function Parameter
+      function getName(firstName, middleName = "Belum diisi") {
+        console.log(`firstName ${firstName}`);
+        console.log(`middleName ${middleName}`);
+      }
+
+      getHellowWorld();
+      getName("Vincentius", "Hendri");
+
+      //Rest Parameter (convertion to array)
+      function sum(nama, ...data) {
+        let total = 0;
+        for (const item of data) {
+          total += item;
+        }
+        document.writeln(`<p>Total ${name} is ${total}</p>`);
+      }
+      sum("Jeruk", 4, 5, 6, 7, 8, 9);
+
+      //Rest Parameter (Spread Sytaxs)
+      ar = [1, 1, 1, 1, 1];
+      function sum(nama, ...data) {
+        let total = 0;
+        for (const item of data) {
+          total += item;
+        }
+        document.writeln(`<p>Total ${name} is ${total}</p>`);
+      }
+      sum("Jeruk", ...ar);
+
+      //Argument  Parameter
+      function oldSum() {
+        let total = 0;
+        for (const item of arguments) {
+          total += item;
+        }
+        document.writeln(`<p>Total ${total}</p>`);
+      }
+      oldSum(1, 2, 3, 4, 5);
+
+      //Function Callback
+      function sayHellow(name) {
+        document.writeln(`<p>Hellow ${name}</p>`);
+      }
+
+      const say = sayHellow;
+
+      say("Vincen");
+
+      function giveMeName(Callback) {
+        Callback("Kurnia");
+      }
+
+      giveMeName(sayHellow);
+
+      //Arrow function
+      const sayHello = (name) => document.writeln(`Hello ${name}`);
+
+      const sayHello1 = (name) => {
+        document.writeln(`Hello ${name}`);
+      };
+
+      sayHello("Wulan");
+
+      //arrow 1 Parameter bisa tanpa menggunakan (..parameter)
+      const arrowOneParameter = (name) => document.writeln(`Hello ${name}`);
+    </script>
+  </body>
+</html>

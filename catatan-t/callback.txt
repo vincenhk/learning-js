@@ -1,0 +1,7 @@
+=========== Function Callback ===========
+
+- callback berguna untuk memanggil function lain.
+
+function giveMaName(callback){
+	callback("Eko")
+}

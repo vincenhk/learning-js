@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Class : Private Method</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        say(name) {
+          if (name) {
+            this.#sayWithName(name);
+          } else {
+            this.#sayWithOutName();
+          }
+        }
+        #sayWithOutName() {
+          console.log(`Name is not ready`);
+        }
+        #sayWithName(name) {
+          console.log(`Hellow ${name}`);
+        }
+      }
+
+      const person = new Person();
+      person.say();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+========== Operator Array===========
+
+
+Operator ini adalah fungsi dari beberapa bawaan 
+
+- array.push(value) => Menambahkan array
+- array.length => Jumlah Index
+- array[index] => Mamanggil value array
+- array[index] = value => Update value pada index
+- delete array[index] => menghapus array
+
+
+#REMAMBER
+- Data di dalam array tidak ada batasan tipe data
+- Bahkan kita juga bisa memasukan Array ke dalam Array jika kita mau
+- Bisa masukkan array ke array

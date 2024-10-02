@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tittle : private class</title>
+  </head>
+  <body>
+    <script>
+      class Person {
+        #counter = 0;
+
+        increment() {
+          this.#counter++;
+        }
+        decrement() {
+          this.#counter--;
+        }
+        get() {
+          return `${this.#counter}`;
+        }
+      }
+
+      const person = new Person();
+      person.increment();
+      person.increment();
+      person.increment();
+      person.increment();
+      person.increment();
+      console.info(person.get());
+      console.info((person.counter = 100));
+    </script>
+  </body>
+</html>

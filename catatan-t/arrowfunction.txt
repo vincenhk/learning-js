@@ -1,0 +1,14 @@
+========== Arrow Function ========== 
+
+- Arrow function seperti dengan fanonimus function 
+- Funtion terdapat 2 cara
+
+
+without return : 
+const sum = (first, second) => document.writeln(`Hasil : ${first+second}`)
+
+with return : 
+const sum = (first, second) => {
+	let total = first+second
+	return document.writeln(`Hasil : ${total}`)
+}

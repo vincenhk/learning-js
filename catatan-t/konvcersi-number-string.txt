@@ -1,0 +1,12 @@
+============= Konversi String dan Number ============= 
+
+- Saat membuat aplikasi kadang kita input dari pengguna selalu dalam bentuk Sting
+- Sengkan kita ingin mengelola data dalam bentuk number
+- maka sangat disarankan untuk melkukan konversi tipe data
+
+Konversi String dan Number 
+
+- parseInt(string) => bilangan bulat
+- parseFloat(String) => bilangan pecahan
+- Number(String) => bilangan bulat maupun pecahan
+- Number.toString()

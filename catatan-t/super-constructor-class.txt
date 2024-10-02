@@ -1,0 +1,7 @@
+============== Super Constructor ============== 
+
+- Class Inhertance sifatnya seperti prototype inheritance 
+- Bagaimana dengan contructor Inheritance? sebenarnya contructor inheritance hanyalah melakaukan eksekusi constructor lain dengan tujuan agar property di constructor lain bisa di tambahkan ke instance objct ini.
+Dalam kasus ini, jika kita ingin mencapai hasil yang sama, kita bisa menggunakan kata kunci super dalam constructor.
+- Dalam kasus ini, jika kita ingin mencapai hasil yang sama, kita bisa menggunakan kata kunci super di dalam constructor.
+- Jika di child class kita membuat constructor maka kita wajib memanggil parent constructor

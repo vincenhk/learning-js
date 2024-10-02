@@ -1,0 +1,25 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>falsy and truthy</title>
+  </head>
+  <body>
+    <h1>Operator Falsy & Truthy Result</h1>
+    <script>
+      const data = "a";
+      let result;
+      if (data) {
+        result = "TRUE";
+      } else {
+        result = "FALSE";
+      }
+      document.writeln(`Result : ${result}`);
+
+      document.writeln(`<h1>Ternary Falsy & Truthy Result</h1>`);
+      let result2 = data ? "TRUE" : "FALSE";
+      document.writeln(`Result : ${result2}`);
+    </script>
+  </body>
+</html>

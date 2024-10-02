@@ -1,0 +1,8 @@
+========== Popup ==========
+
+untuk pop up di java script terdapat beberapa fitur 
+Alert, Propt dan Confirm
+
+Alert => memberikan balikan
+Prompt => meminta masukan dari user
+Confirm => meminta masukan boolean (Yes, No)
